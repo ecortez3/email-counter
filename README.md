@@ -1,10 +1,10 @@
-#Email Counter
+# Email Counter
 
 Service receives a list of email addresses and return a count of unique email addresses based on Google's Gmail rules.
 
 Currently the services only functions as a GET request.
 
-##Running the Service
+## Running the Service
 
 A jar can be created by running 
 
@@ -19,7 +19,8 @@ Making request to
 
 where emails are separated by commas, will return a number of unique email addresses.
 
-###Test
+### Test
+
 Test for the utilities built can be run with
 
 `mvn clean test`
